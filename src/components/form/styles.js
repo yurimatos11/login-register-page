@@ -13,10 +13,11 @@ export const Form = styled.div`
         display: flex;
         background-color: #333;
         margin-top: 1.5rem;
-        width: 30rem;
+        width: 20rem;
         border: 2px solid #fff;
         height: 3rem;
         border-radius: 20px;
+        color: #fff;
         ::placeholder{
             color: #fff;
             padding-left: 1rem;
@@ -30,8 +31,8 @@ export const Form = styled.div`
         background-color: #fff;
         border-radius: 20px;
         border: 2px solid #333;
-        width: 20rem;
-        height: 2.5rem;
+        width: 15rem;
+        height: 2.8rem;
         font-size: 1.3rem;
         font-weight: bold;
         :hover{
@@ -55,8 +56,8 @@ export const Form = styled.div`
         background-color: #fff;
         border-radius: 20px;
         border: 2px solid #333;
-        width: 20rem;
-        height: 2.5rem;
+        width: 15rem;
+        height: 2.8rem;
         font-size: 1.3rem;
         font-weight: bold;
         :hover{

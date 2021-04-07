@@ -3,6 +3,7 @@ import React from 'react';
 import { Container, MenuCarousel } from './styles';
 import Header from '../../components/header';
 import Form from '../../components/form';
+import Footer from '../../components/footer';
 
 import img1 from '../../img/img1.jpeg';
 import img2 from '../../img/img2.png';
@@ -34,6 +35,7 @@ function login() {
               </div>
             </MenuCarousel>
             <Form />
+            <Footer />
         </Container>
       </>
   );
