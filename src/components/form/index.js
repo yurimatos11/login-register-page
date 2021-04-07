@@ -9,9 +9,15 @@ function form() {
             <h1>Login</h1>
             <input type="text" placeholder="Email"></input>
             <input type="text" placeholder="Passawrd"></input>
-            <button type="submit">Login</button>
-            <p>Ainda não é cadastrado?</p>
-            <button type="button">Cadastrece aqui!</button>
+            <div className="login">
+                <button type="submit">Login</button>
+            </div>
+            <div className="submit">
+                <p>Ainda não é cadastrado?</p>
+                <div className="here">
+                    <button type="button">Cadastrece aqui!</button>
+                </div>
+            </div>
         </div>
     </Form>
   );

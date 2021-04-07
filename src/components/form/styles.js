@@ -22,4 +22,49 @@ export const Form = styled.div`
             padding-left: 1rem;
         }
     }
+    .login{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        button{
+        background-color: #fff;
+        border-radius: 20px;
+        border: 2px solid #333;
+        width: 20rem;
+        height: 2.5rem;
+        font-size: 1.3rem;
+        font-weight: bold;
+        :hover{
+            background-color: green;
+            transition: .5s;
+        }
+    }
+    }
+    .submit{
+        margin-top: 1.5rem;
+        p{
+            display: flex;
+            justify-content: center;
+            color: #fff;
+        }
+    }
+    .here{
+        display: flex;
+        justify-content: center;
+        button{
+        background-color: #fff;
+        border-radius: 20px;
+        border: 2px solid #333;
+        width: 20rem;
+        height: 2.5rem;
+        font-size: 1.3rem;
+        font-weight: bold;
+        :hover{
+            background-color: blue;
+            transition: .5s;
+        }
+    }
+    }
+        
+    
 `;
