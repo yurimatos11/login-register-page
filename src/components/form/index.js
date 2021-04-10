@@ -7,15 +7,15 @@ function form() {
     <Form>
         <div>
             <h1>Login</h1>
-            <input type="text" placeholder="Email"></input>
-            <input type="text" placeholder="Passawrd"></input>
+            <input type="email" placeholder="Email"></input>
+            <input type="password" placeholder="Passawrd"></input>
             <div className="login">
                 <button type="submit">Login</button>
             </div>
             <div className="submit">
-                <p>Ainda não é cadastrado?</p>
+                <p>Not registered yet?</p>
                 <div className="here">
-                    <button type="button">Cadastrece aqui!</button>
+                    <button type="button"><a href="/register">Register here!</a></button>
                 </div>
             </div>
         </div>

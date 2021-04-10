@@ -64,6 +64,9 @@ export const Form = styled.div`
             background-color: blue;
             transition: .5s;
         }
+        a{
+            color: #000;
+        }
     }
     }
         
