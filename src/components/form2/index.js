@@ -17,7 +17,7 @@ function form2() {
                 <button type="submit">Register</button>
             </div>
             <div className="back">
-                <p>Ja tem conta? <a href="/"><u>clique aqui</u></a></p>
+                <p>Do you already have an account? <a href="/"><u>Click here</u></a></p>
             </div>
           </div>
           

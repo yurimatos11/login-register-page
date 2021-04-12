@@ -4,6 +4,9 @@ export const Form = styled.div`
     display: flex;
     justify-content: center;
     margin-top: 5rem;
+    @media (min-width: 700px) {
+        margin-right: 180px;
+    }
     h1{
         color: #fff;
         display: flex;
@@ -13,7 +16,7 @@ export const Form = styled.div`
         display: flex;
         background-color: #333;
         margin-top: 1.5rem;
-        width: 20rem;
+        width: 18rem;
         border: 2px solid #fff;
         height: 3rem;
         border-radius: 20px;

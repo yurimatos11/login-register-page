@@ -53,5 +53,8 @@ export const Form = styled.div`
         p{
             color: #fff;
         }
+        @media (min-width: 700px) {
+            margin-bottom: 30px;
+        }
     }
 `;
